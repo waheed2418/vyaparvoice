@@ -1,0 +1,5 @@
+GNANI_API_KEY=vach_1ytE2CY5X2FL3ARk7RyzpeVeeNv1uIn9jlxdYOJOw6cnOqNVIYsIi0csODQBEUY8fsRHJQRDARr3DVeo7b7Aam1mmRBCr9lr_3b5a4b1ac4982dc04be07c0e13d589cd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
